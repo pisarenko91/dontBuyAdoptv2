@@ -1,4 +1,4 @@
-export default function animal(state = "dog", action) {
+export default function animal(state = "", action) {
   switch (action.type) {
     case "CHANGE_ANIMAL":
       return action.payload;
